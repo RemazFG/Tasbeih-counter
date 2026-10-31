@@ -13,3 +13,8 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+
+function rest() {
+    countEl.textContent = 0
+    saveEl.textContent = "التكارات السابقة :"
+}

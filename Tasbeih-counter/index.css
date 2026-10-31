@@ -6,11 +6,11 @@ body {
     text-align: center;
 }
 
-.counter {
-    background-color: lightblue;
+.container {
+    background-color: rgba(173, 216, 230, 0.753);
     margin: auto;
     max-width: 100vh;
-    padding: 20px 0;
+    padding: 20px 20px;
 }
 
 h1 {
@@ -30,16 +30,21 @@ button {
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    width: 200px;
+    width: 150px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #increment-btn {
-    background: darkred;
+    background: rgb(153, 108, 177);
 }
 
 #save-btn {
-    background: darkgreen;
+    background: rgb(122, 189, 122);
+}
+
+#rest-btn {
+    background-color: rgb(244, 225, 138);
+    color : black;
 }
 
